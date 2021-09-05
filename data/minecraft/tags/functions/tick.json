@@ -1,6 +1,7 @@
 {
   "values":[
 	"tardis:main",
-	"tardis:power"
+	"tardis:power",
+	"tardis:controls"
   ]
 }
