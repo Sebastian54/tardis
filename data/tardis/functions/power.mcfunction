@@ -6,7 +6,7 @@ execute unless score PowerTimer tardis_int_prop matches 186 if score Power tardi
 execute if score Power tardis_int_prop matches 2..9999999 run scoreboard players set PowerTimer tardis_int_prop 0
 execute if score PowerTimer tardis_int_prop matches -1 run scoreboard players set PowerTimer tardis_int_prop 0
 execute if score PowerTimer tardis_int_prop matches -3..-1 run scoreboard players add PowerTimer tardis_int_prop 1
-execute if block 
+# execute if block
 
 execute in tardis:tardis as @e[name=fillcontroller] if score PowerTimer tardis_int_prop matches 1 run playsound minecraft:tardis.lights_toggle_1 master @a 0 67 -12 999999
 execute in tardis:tardis as @e[name=fillcontroller] if score PowerTimer tardis_int_prop matches 50 run playsound minecraft:tardis.lights_toggle_1 master @a 0 67 -12 999999
